@@ -5,7 +5,35 @@
   align-items: center;
 }
 
-.home-picture {
-  border: 1px solid black;
-  padding: 80px;
+.home-blurb {
+  font-family: 'Slabo 27px', serif;
+}
+
+.home-greeting {
+  margin: 0;
+  font-size: 20px;
+}
+
+.home-name {
+  font-size: 72px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.home-profession {
+  margin: 0;
+  font-size: 37px;
+}
+
+.home-hobby {
+  margin: 8px 0;
+  font-size: 24px;
+}
+
+.gif {
+  width: 480px;
+  height: 270px;
+  border: none;
+  pointer-events: none;
+  object-position: 100% 0;
 }
