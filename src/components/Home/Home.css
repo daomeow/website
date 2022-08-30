@@ -1,0 +1,11 @@
+.home-body {
+  height: 40rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-picture {
+  border: 1px solid black;
+  padding: 80px;
+}

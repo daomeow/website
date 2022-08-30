@@ -1,10 +1,8 @@
-import Header from '../Header/Header';
-import './App.css';
-
+import Header from "../Header/Header";
+import Home from "../Home/Home";
+import "./App.css";
 
 const App = () => {
-  return (
-    <Header/>
-  )
-}
+  return <Home />;
+};
 export default App;
