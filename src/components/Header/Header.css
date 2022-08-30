@@ -6,4 +6,10 @@
 
 .navigation-buttons {
   margin: 16px;
+  text-decoration: none;
+  color:black;
+}
+
+.navigation-buttons:hover {
+  text-decoration: underline;
 }
