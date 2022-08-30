@@ -6,11 +6,15 @@ const Home = () => {
     <section>
       <Header/>
       <section className="home-body">
-        <p>Hi there,<br/>
-        I am a Software Developer by day<br/>
-        to fund my snacking addiction
-        </p>
-        <p className="home-picture">PICTURE</p>
+        <section  className="home-blurb">
+          <p className="home-greeting">Hi there.</p>
+          <p className="home-name">I am Melanie,</p>
+          <p className="home-profession">a Software Developer by day</p>
+          <p className="home-hobby">to fund my snacking addiction.
+          </p>
+        </section>
+          <iframe src="https://giphy.com/embed/AuYloy0TMztiPFVdmH" className="gif" allowFullScreen></iframe>
+          {/* <p className="home-picture">PICTURE</p> */}
       </section> 
     </section>
   )
