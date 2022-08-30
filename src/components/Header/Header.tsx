@@ -1,13 +1,13 @@
 import "./Header.css";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <section className="navigation-container">
-      <button className="navigation-buttons">About</button>
-      <button className="navigation-buttons">Projects</button>
-      <button className="navigation-buttons">Photos</button>
+      <NavLink to="/" className="navigation-buttons">Home</NavLink>
+      <NavLink to="/projects" className="navigation-buttons">Projects</NavLink>
+      <NavLink to="/photos" className="navigation-buttons">Photos</NavLink>
     </section>
-    
   )
 }
 

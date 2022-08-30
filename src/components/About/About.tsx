@@ -1,8 +1,12 @@
 import "./About.css";
+import Header from "../Header/Header";
 
 const About = () => {
  return (
-   <p>About page!</p>
+   <section>
+     <Header/>
+     <p>About page!</p>
+   </section>
  )
 }
 

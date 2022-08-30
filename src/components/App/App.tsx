@@ -4,8 +4,15 @@ import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Photos from "../Photos/Photos";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { useState } from "react";
 
 const App = () => {
+  const [currentPage, setCurrentPage] = useState<string>("");
+
+  const updatePage = (decision:string) => {
+    setCurrentPage(decision)
+  };
+
   return (
     <BrowserRouter>
       <Routes>

@@ -1,8 +1,13 @@
 import "./Projects.css";
+import Header from "../Header/Header";
+
 
 const Projects = () => {
   return (
-    <p>Projects page!</p>
+    <section>
+      <Header/>
+      <p>Projects page!</p>
+    </section>
   )
 }
 

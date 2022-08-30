@@ -1,8 +1,12 @@
 import "./Photos.css";
+import Header from "../Header/Header";
 
 const Photos = () => {
   return (
-    <p>Photos page!</p>
+    <section>
+      <Header/>
+      <p>Photos page!</p>
+    </section>
   )
 }
 
