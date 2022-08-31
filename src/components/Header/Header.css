@@ -1,6 +1,6 @@
 .navigation-container {
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
   height: 80px;
 }
@@ -21,3 +21,9 @@
   border-radius: 4px;
   background-color: #E1E7EE;
 }
+
+@media screen and (min-width: 768px) {
+  .navigation-container {
+    justify-content: end;
+  }
+};

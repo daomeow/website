@@ -13,8 +13,8 @@ const Home = () => {
           <p className="home-hobby">to fund my snacking addiction.
           </p>
         </section>
-          <iframe src="https://giphy.com/embed/AuYloy0TMztiPFVdmH" className="gif" allowFullScreen></iframe>
-          {/* <p className="home-picture">PICTURE</p> */}
+          {/* <iframe src="https://giphy.com/embed/AuYloy0TMztiPFVdmH" className="gif" allowFullScreen></iframe> */}
+          <p className="home-picture">PICTURE</p>
       </section> 
     </section>
   )
