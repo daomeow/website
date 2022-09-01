@@ -1,39 +1,130 @@
-.home-body {
-  height: 40rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+@media all and (min-width: 320px) {
+  .home-body {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-blurb {
+    font-family: 'Slabo 27px', serif;
+  }
+
+  .home-greeting {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .home-name {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .home-profession {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .home-hobby {
+    margin: 8px 0;
+    font-size: 24px;
+  }
+
+  .gif {
+    width: 300px;
+    height: 220px;
+    border: none;
+    pointer-events: none;
+    object-position: 100% 0;
+  }
 }
 
-.home-blurb {
-  font-family: 'Slabo 27px', serif;
+
+@media all and (min-width: 768px) {
+  .home-body {
+    height: 50rem;
+  }
+
+  .home-greeting {
+    font-size: 20px;
+  }
+  
+  .home-name {
+    font-size: 72px;
+  }
+  
+  .home-profession {
+    font-size: 36px;
+  }
+  
+  .home-hobby {
+    margin: 8px 0;
+    font-size: 24px;
+  }
+  
+  .gif {
+    width: 430px;
+    height: 270px;
+  }
+} 
+
+@media all and (min-width: 992px) {
+  .home-body {
+    height: 50rem;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .home-greeting {
+    font-size: 20px;
+  }
+
+  .home-name {
+    font-size: 72px;
+  }
+
+  .home-profession {
+    font-size: 37px;
+  }
+
+  .gif {
+    width: 480px;
+    height: 270px;
+  } 
 }
 
-.home-greeting {
-  margin: 0;
-  font-size: 20px;
+@media all and (min-width: 1200px) {
+  .home-greeting {
+    font-size: 24px;
+  }
+
+  .home-name {
+    font-size: 88px;
+  }
+
+  .home-profession {
+    font-size: 40px;
+  }
+
+  .home-hobby {
+    font-size: 32px;
+  }
+
+  .gif {
+    width: 500px;
+    height: 290px;
+  } 
 }
 
-.home-name {
-  font-size: 72px;
-  font-weight: bold;
-  margin: 0;
+@media all and (min-width: 1600px) {
+  .home-body {
+    justify-content: center;
+  }
+
+  .home-blurb {
+    margin-right: 288px;
+  }
 }
 
-.home-profession {
-  margin: 0;
-  font-size: 37px;
-}
-
-.home-hobby {
-  margin: 8px 0;
-  font-size: 24px;
-}
-
-.gif {
-  width: 480px;
-  height: 270px;
-  border: none;
-  pointer-events: none;
-  object-position: 100% 0;
-}
