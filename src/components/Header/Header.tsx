@@ -14,7 +14,7 @@ const Header = () => {
     return (
       buttons.map(nav => {
         if (nav.id !== location.pathname) {
-          return <NavLink to={nav.id} className="navigation-buttons">{nav.name}</NavLink>
+          return <NavLink to={nav.id} className="navigation-buttons" key={nav.name}>{nav.name}</NavLink>
         }
       })
     )
