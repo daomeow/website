@@ -1,0 +1,20 @@
+@media all and (min-width: 320px) {
+  
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Slabo 27px', serif;
+  }
+  .about-picture {
+    height: 20rem;
+  }
+  .about-title {
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 0;
+  }
+  .paragraph1 {
+    width: 19rem;
+  }
+}

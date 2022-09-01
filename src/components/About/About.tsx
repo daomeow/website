@@ -14,11 +14,11 @@ import melPicture from "../../assets/aboutMel.jpg";
 const About = () => {
 
  return (
-   <section>
+   <section className="about-container">
      <Header/>
-     <img src={melPicture} alt="Profile picture of Melanie"/>
+     <img src={melPicture} alt="Profile picture of Melanie" className="about-picture"/>
      <p className="about-title">About Melanie</p>
-     <p>Experienced Software Developer focused on object-oriented programming, developer empathy, and accessibility for all users. Proficient with cutting-edge development tools and procedures, design, installation, and testing software systems. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.
+     <p className="paragraph1">Experienced Software Developer focused on object-oriented programming, developer empathy, and accessibility for all users. Proficient with cutting-edge development tools and procedures, design, installation, and testing software systems. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.
     </p>
     <section>
       <section>
